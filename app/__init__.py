@@ -9,4 +9,4 @@ app.config['UPLOAD_FOLDER'] = "./app/static/uploads"
 db = SQLAlchemy(app)
 
 app.config.from_object(__name__)
-from app import views
+from app import views, models
